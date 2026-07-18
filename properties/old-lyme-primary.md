@@ -18,15 +18,12 @@
 
 ## Climate & envelope
 
-- ❓ **Heating system + fuel — CONFIRM** (oil / propane / electric resistance / heat pump / natural gas).
-  - *Searched and not found:* paia-memory, `house/property` files, `enphase-usage` docs, and the email archive.
-  - *One lead, not confirmed here:* a 2019 "Propane contract" email (Intempio era, sent before the 2020 CT move) — likely a prior property, **not** established for this home.
-  - *Implication if fossil:* an oil/propane → heat-pump conversion becomes a live money consideration (see below).
+- ✅ **Heating system + fuel — Oil-fired forced air.**
 - ✅ **Cooling — Central AC.**
 
 ## Domestic hot water
 
-- ❓ Confirm — likely follows heating fuel (indirect tankless coil / separate tank / electric).
+- ✅ **Domestic hot water — Oil-associated system; exact tank/coil configuration is not recorded.**
 
 ## Electricity & generation
 
@@ -49,9 +46,7 @@
 
 1. **[TOP] Eversource Rate 7 (TOU) vs Rate 1.** Active analysis in the sibling `enphase-usage` repo
    (`docs/ev-charging-and-rate-7.md`, `docs/eversource-rate-7.md`). Choosing the wrong plan leaks money every month.
-2. **Oil / propane → heat-pump conversion** — *conditional on confirming heating fuel.* If the home is fossil-heated,
-   electrifying onto the existing solar + battery is a material ROI question; a Feb 2026 forwarded thread on heat pumps
-   signals prior interest. Cannot be scoped until heating fuel is confirmed.
+2. **Oil-fired forced-air → heat-pump conversion.** The home is fossil-heated, so electrifying onto the existing solar + battery is a live ROI question; a Feb 2026 forwarded thread on heat pumps signals prior interest. Scope the conversion economics against winter oil use, electrical capacity, and Rate 7.
 3. **EV load-shifting.** Already modeled in `enphase-usage`; ensure the Level 2 charger schedule tracks whichever rate
    plan is chosen, so charging lands in the off-peak / solar window.
 

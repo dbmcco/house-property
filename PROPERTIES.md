@@ -8,12 +8,12 @@ Each property has a record under `properties/`. This file is the durable index a
 
 | Property | Role | Heating | Cooling | EV charging | Solar / battery | Record |
 |---|---|---|---|---|---|---|
-| Old Lyme | Primary residence | ❓ confirm | ✅ Central AC | ✅ Level 2 (grid / battery) | 🔍 Enphase + IQ Battery | [old-lyme-primary.md](properties/old-lyme-primary.md) |
+| Old Lyme | Primary residence | ✅ Oil-fired forced air | ✅ Central AC | ✅ Level 2 (grid / battery) | 🔍 Enphase + IQ Battery | [old-lyme-primary.md](properties/old-lyme-primary.md) |
 
 ## Open money considerations (rollup)
 
 - **[Old Lyme] Eversource Rate 7 (TOU) vs Rate 1** — pick the wrong one and it leaks monthly. Analysis lives in the `enphase-usage` repo docs.
-- **[Old Lyme] Oil / propane → heat-pump conversion** — conditional on confirming the heating fuel; material ROI given the on-site solar + battery.
+- **[Old Lyme] Oil-fired forced-air → heat-pump conversion** — active ROI question given the on-site solar + battery; scope against winter oil use, electrical capacity, and Rate 7.
 - *(extend as more properties or considerations are recorded)*
 
 ## Cross-module
